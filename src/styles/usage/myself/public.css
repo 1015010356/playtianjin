@@ -1,0 +1,7 @@
+@font-face {font-family: "yofont";
+  src: url('/img/iconfont.eot?t=1483019428941'); /* IE9*/
+  src: url('/img/iconfont.eot?t=1483019428941#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('/img/iconfont.woff?t=1483019428941') format('woff'), /* chrome, firefox */
+  url('/img/iconfont.ttf?t=1483019428941') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('/img/iconfont.svg?t=1483019428941#iconfont') format('svg'); /* iOS 4.1- */
+}

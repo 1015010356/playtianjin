@@ -1,0 +1,96 @@
+<div class="m-index" id="m-index">
+	<header>
+	
+		111
+		
+	</header>
+	
+	<section>
+ <div class="lun">
+	<div class="swiper-container" id="index-swiper">
+  	<div id="swipet-font" class="swiper-wrapper">
+    <div class="swiper-slide"><img src="/img/luna_02.jpg" /> </div>
+    <div class="swiper-slide"><img src="/img/lunb_02_02.png" /></div>
+    <div class="swiper-slide"><img src="/img/lunc_02.png" /></div>
+    <div class="swiper-slide"><img src="/img/lund_02.png" /></div>
+    <div class="swiper-slide"><img src="/img/lune_02.png" /></div>
+ </div>
+ <div class="swiper-pagination"></div>
+</div>
+</div>
+
+<ul class="NavList">
+	
+	<li class="uli"><img src="/img/dazhuanpan_default.jpg"/></li>
+	<li class="oli"><img src="/img/wanxiaojin.jpg"/></li>
+</ul>
+
+<ul class="Integral">
+	<li v-for="item in list[0]">
+		<img class="shope" :src="item.imgSrc" />
+		<h5>{{item.title}}</h5>
+		<span>{{item.price}}<img class="golb" :src="item.golb"/></span>
+		
+	</li>	
+</ul>
+
+<ul class="Chance">
+	<li v-on:click="changeTab(index)" :class="{active: index==navIndex}" v-for="(item, index) in nav">{{item.name}}</li>
+</ul>
+<!--<component :is="currentView"></component>-->
+<ul class="chanceline" id="exame">
+	
+	<div class="swiper-container" id="fuck-swiper">
+  	<div id="swipet-font" class="swiper-wrapper">
+    <div class="swiper-slide stop-swiping">
+    
+    	<ul class="golb1">
+    		<li v-for="item in list[1]">
+    			
+    			<img :src="item.imglist"/>
+    			
+    		</li>
+    		
+    	</ul>
+    	
+    </div>
+    <div class="swiper-slide stop-swiping">
+    	
+    	<ul class="golb2">
+    		<li v-for="item in list[2]">
+    			
+    			<img :src="item.imglist"/>
+    			
+    		</li>
+    		
+    	</ul>
+    	
+    </div>
+ </div>
+</div>
+	
+</ul>
+
+
+
+	</section>
+	<footer>
+		<ul>
+			<li class="yo-ico active">
+				<span><i>&#xe629</i></span> 
+				<p><b>首页</b></p> 
+			</li>
+			<li class="yo-ico">
+				<span>&#xe6a9</span>
+				<p><b>话题</b></p>
+			</li>
+			<li class="yo-ico"><span>&#xe61b</span><p><b>活动</b></p></li>
+			<li class="yo-ico"><span>&#xe698</span><p><b>集市</b></p></li>
+			<li class="yo-ico"><span>&#xe66d</span><p><b>我的</b></p></li>
+			<!--<liv-for="item in footer">
+				<span><i class="yo-ico">{{item.meta}}</i></span> 
+				<p><b>{{item.adder}}</b></p> 
+			</li>-->
+		</ul>	
+	</footer>
+</div>

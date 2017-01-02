@@ -1,0 +1,204 @@
+@charset "utf-8";
+@import "./public";
+@import "./libs/swiper";
+
+.m-index{
+    @include flexbox();
+    @include flex-direction(column);
+    height:100%;
+   
+    header{
+        width: 100%;
+        height: 0.44rem;
+        background:orange;
+        text-align: center;
+        line-height: 0.44rem;
+        color:white;
+        font-size: 0.15rem;
+        font-weight: bolder;
+    }
+    
+    section{
+        width: 100%;
+        height: 100%;
+        background: red;
+        overflow:scroll;
+        background:#f7f7f7;
+        .lun{
+            width: 100%;    
+            height: 1.4rem;
+            background: white;
+         .swiper-container{
+             height: 100%;
+         }
+          .swiper-pagination-bullet-active{
+              background: white;
+          } 
+           img{
+               width: 100%;
+               height: 100%;
+           }
+            
+        }
+        
+        .NavList{
+            @include flexbox();
+            @include border(0 0 1px 0,#d6d6d6);
+            width: 100%;
+            height:0.8rem;
+            background: thistle;
+            .uli{
+                @include border(0 1px 0 0,#d6d6d6);
+            }
+            li{
+                width: 50%;
+                background: darkgoldenrod; 
+                
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        
+        
+        .Integral{
+            @include flexbox();
+            margin-top:0.13rem;
+            height: 1.33rem;
+            @include border(1px 0 1px 0,#d6d6d6);
+            padding-left: 0.13rem;
+            padding-top: 0.08rem;
+            background: white;
+            li{
+                @include border(0 0 0 1px,#d6d6d6);
+                width:1.2rem;
+                height: 1.2rem;
+                text-align:center;
+                &:first-child{
+                    @include border(0 0 0 0,#d6d6d6);
+                }
+                .shope{
+                    width: 100%;
+                    height: 0.81rem;
+                    
+                    }
+                   span{
+                       color:#ff5f00;
+                   }
+                .golb{
+                    height: 0.13rem;
+                    width: 0.13rem;
+                }
+            }
+            
+        }
+        
+        
+        .Chance{
+            @include flexbox();
+            @include border(1px 0 1px 0,#d6d6d6);
+            width: 100%;
+            margin-top: 0.12rem;
+            height: 0.46rem;
+            
+           
+            
+            li{
+                text-align: center;
+                line-height: 0.46rem;
+                font-size: 0.17rem;
+                font-weight:bolder;
+                width: 50%;
+                &.active{
+                    border-bottom: 2px solid orange;
+                    color:#ff780d;
+                }
+            }
+            
+        }
+        
+        .chanceline{
+            width: 100%;
+            height:auto;
+            background: white;
+            height:auto;
+            div{
+                width: 100%;
+                height: 100%;
+                .golb1{
+                    width: 100%;
+                    height: 100%;
+                    li{
+                        width: 100%;
+                        height: 1,34rem;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            padding-top: 0.02rem;
+                        }
+                        
+                    }
+                }
+                .golb2{
+                    width: 100%;
+                    height: 100%;
+                    li{
+                        width: 100%;
+                        height: 1,53rem;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            padding-top: 0.1rem;
+                        }
+                        
+                    }
+                }
+                
+            }
+            
+        }
+    }
+    
+    footer{
+        width: 100%;
+        height: 0.44rem;
+        background: whitesmoke;
+        
+            ul{
+            @include flexbox();
+            //@include flex();
+            height: 100%;
+            width:100%;
+               li{
+                   @include flex();
+                   background:whitesmoke;
+                   text-align: center;
+                   &.active{
+                     color: orange;
+                   }  
+                  
+                    p{
+                        font-size: 0.11rem;
+                        
+                    }
+                     
+                   span{
+                       font-size: 0.23rem;
+                       line-height: 0.25rem;
+                     
+                   }
+                   
+               
+                 
+                   
+               }            
+            }
+        
+        
+       
+        }
+    }
+    
+    
+

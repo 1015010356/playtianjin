@@ -1,0 +1,80 @@
+[
+[
+	{
+		"imgSrc": "/img/baimao_03.png",
+		"title":"白猫洗洁精",
+		"price":"50",
+		"golb":"/img/icon_score.png"
+	},
+	{
+		"imgSrc": "/img/zhonghua_05.png",
+		"title":"中华牙膏",
+		"price":"50",
+		"golb":"/img/icon_score.png"
+	},
+	{
+		"imgSrc": "/img/xishouye_07.png",
+		"title":"妈妈洗手液",
+		"price":"50",
+		"golb":"/img/icon_score.png"
+	}
+],
+[
+	{
+		"imglist":"/img/shop1_02.png"
+	},
+	{
+		"imglist":"/img/shop2_05.png"
+	},
+	{
+		"imglist":"/img/shop3_02.png"
+	},
+	{
+		"imglist":"/img/shop4_03.png"
+	},
+	{
+		"imglist":"/img/shop5_02.png"
+	},
+	{
+		"imglist":"/img/shop6_02.png"
+	},
+	{
+		"imglist":"/img/shop7_02.png"
+	},
+	{
+		"imglist":"/img/shop8_02.png"
+	},
+	{
+		"imglist":"/img/shop9_02.png"
+	}
+],
+[
+	{
+		"imglist":"/img/a(1).png"
+	},
+	{
+		"imglist":"/img/a(2).png"
+	},
+	{
+		"imglist":"/img/a(3).png"
+	},
+	{
+		"imglist":"/img/a(4).png"
+	},
+	{
+		"imglist":"/img/a(5).png"
+	},
+	{
+		"imglist":"/img/a(6).png"
+	},
+	{
+		"imglist":"/img/a(7).png"
+	},
+	{
+		"imglist":"/img/a(8).png"
+	},
+	{
+		"imglist":"/img/a(9).png"
+	}
+]
+]
